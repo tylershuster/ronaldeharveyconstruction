@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Halant:400,700');
+
+* {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+  font-family: 'Halant', serif;
+  line-height: 1.5;
+  padding: 0 1rem;
+  background-color: black;
+  color: white;
+  --silver: #333333;
+  --blue: #0000ff;
+  --black: #000000;
+  margin: 0 auto;
+  max-width: 42rem;
+}
+
+h1,
+.license,
+a,
+p,
+ul {
+  flex: 1 1 100%;
+}
+
+a {
+  color: inherit;
+}
+
+h1 {
+  color: #0508a5;
+  margin: 1rem auto 0;
+  font-size: 3rem;
+  font-size: 0px;
+  background-image: url('/logo.svg');
+  height: 20vw;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+hr {
+  flex: 1 1 100%;
+  border: none;
+  border-top: 1px solid currentColor;
+  margin: 2rem -1rem;
+}
+
+.license,
+a {
+  font-weight: 700;
+  hyphens: auto;
+  word-break: break-word;
+}
+
+a[itemprop=telephone] {
+  font-size: 1.618rem;
+}
+
+a[itemprop=email] {
+  white-space: nowrap;
+}
+
+
+.license {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+li {
+
+}
